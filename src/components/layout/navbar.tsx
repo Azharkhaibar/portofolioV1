@@ -24,7 +24,7 @@ const Navbar: React.FC = () => {
             >
                 <Flex align="center" gap={8}>
                     <Text fontSize="2xl" fontWeight="bold">
-                        MyPortfolio
+                        Portofolio
                     </Text>
 
                     <Stack

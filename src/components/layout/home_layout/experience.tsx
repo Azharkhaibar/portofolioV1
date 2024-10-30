@@ -27,6 +27,9 @@ const Pendidikan: React.FC = () => {
                     flexDirection="column"
                     alignItems="center"
                     p="20px"
+                    border="1px"
+                    borderColor="gray.800"
+                    borderStyle="solid"
                     borderRadius="20px"
                     boxShadow="lg"
                     position="relative"
@@ -55,7 +58,7 @@ const Pendidikan: React.FC = () => {
                                         <Image src={Test} w="30px" h="30px" />
                                         <Flex flexDirection="column" textAlign="left" ml="14px">
                                             <Text color="gray.600">jul 2022 - aug 2022 </Text>
-                                            <Heading>CV. Rehab Hati</Heading>
+                                            <Heading>CV. DivMedia</Heading>
                                             <Text>Matematika dan Ilmu Pengetahuan Alam</Text>
                                         </Flex>
                                     </Box>
@@ -104,11 +107,13 @@ const Pendidikan: React.FC = () => {
                     alignItems="center"
                     p="20px"
                     bg="blackAlpha.50"
+                    border="1px"
+                    borderColor="gray.800"
+                    borderStyle="solid"
                     borderRadius="20px"
                     boxShadow="lg"
                     position="relative"
                 >
-                    {/* Colored circles positioned at the top left */}
                     <Flex position="absolute" top="20px" left="20px">
                         <Box w="12px" h="12px" borderRadius="full" bg="red.500" mr="2"></Box>
                         <Box w="12px" h="12px" borderRadius="full" bg="blue.500" mr="2"></Box>
@@ -142,7 +147,7 @@ const Pendidikan: React.FC = () => {
                                     <Box display="flex" alignItems="center">
                                         <Image src={Test} w="30px" h="30px" />
                                         <Flex flexDirection="column" textAlign="left" ml="14px">
-                                            <Heading>Universitas Esa Unggul</Heading>
+                                            <Heading>Universitas Respati Indonesia</Heading>
                                             <Text>Sistem Informasi</Text>
                                         </Flex>
                                     </Box>
